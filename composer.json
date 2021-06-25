@@ -1,0 +1,27 @@
+{
+    "description": "The CodeIgniter framework",
+    "name": "codeigniter/framework",
+    "type": "project",
+    "homepage": "https://codeigniter.com",
+    "license": "MIT",
+    "support": {
+        "forum": "http://forum.codeigniter.com/",
+        "wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
+        "slack": "https://codeigniterchat.slack.com",
+        "source": "https://github.com/bcit-ci/CodeIgniter"
+    },
+
+    "require-dev": {
+        "mikey179/vfsstream": "1.1.*",		   
+        "openboleto/openboleto": "dev-master",
+        "quilhasoft/opencnabphp": "dev-master"
+    },
+    "require": {       
+        "sngrl/php-firebase-cloud-messaging": "dev-master",
+        "developercielo/api-3.0-php": "^1.2",
+        "mcred/detect-credit-card-type": "^0.1.0",
+        "aws/aws-sdk-php": "^3.112",
+        "firebase/php-jwt": "^5.2",
+        "paragonie/random_compat": ">=1"        
+    }
+}
